@@ -1,0 +1,146 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+
+ /* Navbar Section  */
+
+.navbar-container{
+     max-width: 1900px;
+     margin: 0 auto;
+     padding: 0 15rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 8rem;
+ }
+
+ .list{
+     display: flex ;
+
+ }
+ .list-item{
+     margin-right: 2em;
+     font-size: 1.5em;
+     font-family: 'Orbitron';
+     font-weight: 900;
+ }
+.list li:first-child{
+    border-bottom: 3px black solid;
+}
+ .button-group{
+     display: flex;
+     align-items: center;
+ }
+ .search-icon{
+    margin: 0 1em;     
+ }
+
+ .nav-button{
+     border: 2px black solid;
+     background-color: transparent;
+     font-family: 'poppins';
+     font-size: 1.3em;
+     padding: 0.5em 2em;
+     border-radius: 15px;
+ }
+
+ /* HERO-SECTION */
+
+ .hero-container{
+     max-width: 1900px;
+     margin: 0 auto;
+     padding: 0 15rem;
+     display: flex;
+     justify-content: space-between;
+     gap: 5rem;
+     align-items: center;
+     height: 50em;
+     position: relative;
+ }
+ .square{
+     position:absolute;
+     bottom: -20px;
+     left: 460px;
+     z-index: -1;
+
+ }
+
+ .star{
+     position:absolute;
+     top: 20px;
+     right: 200px;
+ }
+ .globe{
+     top: 0;
+     left: 1000px;
+     position:absolute;
+ }
+
+ .hero-container-right{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     width: 100%;
+ }
+ .hero-heading{
+    font-size: 4rem;
+    font-family: 'orbitron';
+    width: 55rem;
+    margin: 1em 0;
+ }
+
+ .hero-description{
+    font-size: 1rem;
+    text-align: center;
+    width: 45rem;
+    font-family: 'poppins';
+    font-weight:200;
+    margin: 2.5em 0;
+ }
+ .button-container{
+     margin: 5em 0;
+ }
+ .button-email{
+    background-color: transparent;
+    border: 3px #000 solid;
+    border-radius: 10px;
+    padding: 2px 30px;
+    font-size: 2rem;
+    font-family: 'orbitron';
+    margin-right: 1em;
+ }
+ .button-join{
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 2px 30px;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'orbitron';
+ }
+
+ .contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+ }
+ .contact-heading{
+    font-size: 1.8rem;
+    font-family: 'poppins';
+    font-weight: 400;
+ }
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
